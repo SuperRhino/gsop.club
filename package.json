@@ -1,0 +1,46 @@
+{
+  "name": "gsop.club",
+  "version": "0.1.0",
+  "description": "The swankiest fantasy football club on the web.",
+  "private": true,
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1",
+    "styled-components": "^4.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp -R build/* public_html/.",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "keywords": [
+    "fantasy",
+    "football",
+    "commissioner",
+    "tools",
+    "league",
+    "manager"
+  ],
+  "author": "Ryan Pastorelle",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperRhino/gsop.club.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SuperRhino/gsop.club/issues"
+  },
+  "homepage": "."
+}
