@@ -9,7 +9,7 @@ const ranges = [
   'PlayoffAppearances!A:E',
   'Playoffs!A:C',
   'Matchup!A:F',
-  'BowlGames!A:F',
+  'Awards!A:F',
 ];
 
 const rangesParam = ranges.map(r => `ranges=${r}`).join('&');

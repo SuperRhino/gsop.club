@@ -38,7 +38,7 @@ img.placeholder {
 }
 
 .app-logo {
-  animation: app-logo-spin infinite 20s linear;
+  /* animation: app-logo-spin infinite 7s linear; */
   height: 6vh;
 }
 

@@ -1,4 +1,4 @@
-export { default as BowlGames } from './BowlGames';
+export { default as Awards } from './Awards';
 export { default as History } from './History';
 export { default as Matchup } from './Matchup';
 export { default as Playoffs } from './Playoffs';

@@ -5,7 +5,7 @@ import './App.css';
 
 import { Header, Footer } from './ui';
 import {
-  BowlGames,
+  Awards,
   History,
   Matchup,
   Playoffs,
@@ -37,7 +37,7 @@ const AppPrimary = (value) => {
           team2={value.Matchup[1] || []}
           isDesktop={isDesktop}
         />
-        {isDesktop && <BowlGames bowls={value.BowlGames} />}
+        {isDesktop && <Awards awards={value.Awards} />}
         {isDesktop && <StoryFeed stories={stories} />}
         {!isDesktop && <Playoffs blob={value.Playoffs} />}
       </div>
@@ -56,7 +56,7 @@ const AppSecondary = (value) => {
         {isDesktop &&
           <Playoffs blob={value.Playoffs} />
         }
-        {!isDesktop && <BowlGames bowls={value.BowlGames} />}
+        {!isDesktop && <Awards awards={value.Awards} />}
         {!isDesktop && <StoryFeed stories={stories} />}
         <Records
           appearances={PlayoffAppearances}
@@ -83,7 +83,7 @@ class App extends Component {
     PlayoffAppearances: [],
     Playoffs: [],
     Matchup: [],
-    BowlGames: [],
+    Awards: [],
   }
 
   componentDidMount() {

@@ -35,7 +35,8 @@ const StoryBody = styled.div`
 `;
 
 const ImageContainer = styled.div`
-
+  display: flex;
+  justify-content: center;
 `;
 
 const TopStory = ({ story }) => {
