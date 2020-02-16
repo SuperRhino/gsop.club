@@ -1,7 +1,8 @@
 import fetch from 'isomorphic-fetch';
 
 const key = 'AIzaSyDHNixsXQ6HS6pImfxyGcDVTfnAOR5CO30';
-const sheetId = '1n6KpxAspvzpVt-Oef6ZVA44qEPuHCDcUAMEqQ0WTSoI';
+// Sheet Title: GSOP CMS — The Greatest Show On Paper
+const sheetId = '11Nzg3cjby6w0xdTGFSnHmdLJMLIz5DAcwXCdx7NFMkM';
 const ranges = [
   'TopStory!A:D',
   'Champions!A:C',
