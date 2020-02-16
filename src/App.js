@@ -6,7 +6,6 @@ import './App.css';
 import { Header, Footer } from './ui';
 import {
   Awards,
-  History,
   Matchup,
   Playoffs,
   Records,

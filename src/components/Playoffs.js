@@ -83,12 +83,12 @@ const Playoffs = ({ blob }) => {
   // const seeds = [1,2]
   let seeds = {};
   [1,2,3,4,5,6].forEach(s => {
-    seeds[s] = blob[s-1] && blob[s-1][0] || null;
+    seeds[s] = (blob[s-1] && blob[s-1][0]) || null;
   });
-  const winner4v5 = blob[0] && blob[0][1] || null;
-  const winner3v6 = blob[1] && blob[1][1] || null;
-  const finalist1 = blob[0] && blob[0][2] || null;
-  const finalist2 = blob[1] && blob[1][2] || null;
+  const winner4v5 = (blob[0] && blob[0][1]) || null;
+  const winner3v6 = (blob[1] && blob[1][1]) || null;
+  const finalist1 = (blob[0] && blob[0][2]) || null;
+  const finalist2 = (blob[1] && blob[1][2]) || null;
   const hasSemis = winner4v5 || winner4v5;
   const hasFinals = finalist1 || finalist2;
   return (

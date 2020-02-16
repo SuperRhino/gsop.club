@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import logo from '../images/logo.png';
 
 const handleClick = (e) => {
@@ -14,6 +13,7 @@ const Header = (props) => {
         className="app-link"
         href="https://sleeper.app/leagues/515547724327690240"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <img src={logo} className="app-logo" alt="logo" />
         <p>

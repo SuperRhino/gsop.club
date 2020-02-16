@@ -1,5 +1,4 @@
 export { default as Awards } from './Awards';
-export { default as History } from './History';
 export { default as Matchup } from './Matchup';
 export { default as Playoffs } from './Playoffs';
 export { default as Records } from './Records';
